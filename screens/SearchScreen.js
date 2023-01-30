@@ -1,4 +1,3 @@
-import { Text } from "react-native";
 import cities from 'cities.json';
 import { useState } from 'react';
 import { inputFormatter } from '../helpers/inputFormatter';

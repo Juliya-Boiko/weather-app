@@ -71,7 +71,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontFamily: 'Poppins-400',
     fontSize: 15,
-    //color: colors.white,
   },
   after: {
     height: 1,

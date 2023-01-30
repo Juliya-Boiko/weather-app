@@ -3,9 +3,8 @@ import { getCurrentPosition } from '../services/getCurrentPosition';
 import { getPermission } from '../services/getPermission';
 import { fetchByLocation } from '../api/axios';
 import { bgImagePicker } from '../helpers/bgImagePicker';
-import { Loader } from '../components/Loader';
-import { WeatherCard } from '../components/WeatherCard';
-import { View, Text, StyleSheet, ImageBackground } from "react-native";
+import { Main } from '../components/Main';
+import { View, Text, StyleSheet } from "react-native";
 import { colors } from '../styles/colors';
 
 export const HomeScreen = () => {
@@ -38,30 +37,14 @@ export const HomeScreen = () => {
   return (
     <View style={styles.container}> 
       {errorMsg
-        ? <Text>{errorMsg}</Text>
-        : null
-      }
-      {loading && !errorMsg
-        ? <Loader />
-        : <ImageBackground
-          source={bgImage}
-          resizeMode="cover"
-          style={styles.image}
-        >
-          {weatherData && <WeatherCard data={weatherData} />}
-          {/* <Text>Home Screen</Text> */}
-        </ImageBackground>
+        ? <Text style={styles.text}>{errorMsg}</Text>
+        : <Main loading={loading} weatherData={weatherData} bgImage={bgImage} />
       }
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  image: {
-    flex: 1,
-    paddingVertical: 120,
-    paddingHorizontal: 35,
-  },
   container: {
     flex: 1,
     justifyContent: 'center',

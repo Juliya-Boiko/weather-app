@@ -3,7 +3,7 @@ import { useState, useCallback, useEffect } from 'react';
 import { loadApplication } from './services/loadApplication';
 import { BottomNav } from './components/BottomNav';
 import { StatusBar } from 'expo-status-bar';
-import { TouchableWithoutFeedback, Keyboard, ImageBackground, Pressable, Platform, StyleSheet, Text, View } from 'react-native';
+import { TouchableWithoutFeedback, Keyboard, StyleSheet, View } from 'react-native';
 
 SplashScreen.preventAutoHideAsync();
 

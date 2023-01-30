@@ -2,7 +2,6 @@ import { weatherFormatter } from './weatherFormatter';
 
 export const bgImagePicker = (value) => {
   const weather = weatherFormatter(value);
-  //console.log(weather);
   if (weather === 'cloudy') {
     return require('../assets/backgrounds/cloudy.png');
   }
