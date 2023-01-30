@@ -9,9 +9,9 @@ WEATHER-APP - its mobile application designed to obtain weather data
 
 ---
 
-### Start screen
+### Start
 
-At start screen you should allow access to you Geolocation in phone settings
+At start you should allow access to you Geolocation in phone settings
 
 ---
 
