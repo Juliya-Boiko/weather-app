@@ -1,4 +1,4 @@
-# WEATHER-APP
+# WEATHER-APP ☔️
 
 ## mobile application designed to obtain weather data
 
@@ -12,19 +12,19 @@
 
 ---
 
-### Start
+### ☀️ Start
 
 Allow access to you Geolocation in phone settings
 
 ---
 
-### Home screen
+### 🌈 Home screen
 
 After allowing access to you Geolocation you will see detailed weather information obtained from Weatherbit.io and positioned like weather card
 
 ---
 
-### Search screen
+### ⛈ Search screen
 
 You can find weather data not only in yours location.
 It takes only 3 steps:
@@ -35,7 +35,7 @@ It takes only 3 steps:
 
 ---
 
-### Weather Card
+### ☁️❄️ Weather Card
 
 Every weather card contains next information:
 
