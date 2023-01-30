@@ -1,17 +1,20 @@
 # WEATHER-APP
 
-WEATHER-APP - its mobile application designed to obtain weather data
+## mobile application designed to obtain weather data
 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
 ### Start
 
-At start you should allow access to you Geolocation in phone settings
+Allow access to you Geolocation in phone settings
 
 ---
 
@@ -34,7 +37,7 @@ It takes only 3 steps:
 
 ### Weather Card
 
-Every weather card contains such information:
+Every weather card contains next information:
 
 - City name and country code,
 - Current temperature in Celsius and weather icon
