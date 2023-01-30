@@ -1,8 +1,7 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { Tabs } from "../services/tabsNavigator";
-import { Text } from "react-native";
-import { HomeScreen } from '../screens/Home';
-import { SearchScreen } from '../screens/Search';
+import { HomeScreen } from '../screens/HomeScreen';
+import { SearchScreen } from '../screens/SearchScreen';
 import { Ionicons } from "@expo/vector-icons";
 import { colors } from '../styles/colors';
 
